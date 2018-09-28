@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_cardview">10dp</dimen>
+    <dimen name="width_img">68dp</dimen>
+    <dimen name="height_img">68dp</dimen>
+    <dimen name="text_sixe">12sp</dimen>
+    <dimen name="width_cardview">148dp</dimen>
+    <dimen name="height_cardview">148dp</dimen>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:id="@+id/ln_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            style="@style/styleCardview"
+            android:id="@+id/cd_camera"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:id="@+id/ln_content_camera"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_camera"
+                    android:layout_width="@dimen/width_img"
+                    android:layout_height="@dimen/height_img"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_photo_camera_black_48dp"
+                    />
+                <TextView
+                    style="@style/fontCarview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camara"
+                    android:layout_marginTop="@dimen/margin_cardview"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            style="@style/styleCardview"
+            android:id="@+id/cd_video_library"
+            android:layout_margin="@dimen/margin_cardview"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="@dimen/width_img"
+                    android:layout_height="@dimen/height_img"
+                    android:src="@drawable/ic_video_library_black_48dp"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    style="@style/fontCarview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video Galeria "
+                    android:layout_marginTop="7dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_margin="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_video_camera"
+            style="@style/styleCardview"
+            android:foreground="?android:selectableItemBackground"
+            android:layout_margin="@dimen/margin_cardview"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="@dimen/width_img"
+                    android:layout_height="@dimen/height_img"
+                    android:src="@drawable/ic_videocam_black_48dp"
+                    android:padding="10dp"
+
+                    />
+                <TextView
+                    style="@style/fontCarview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video Camara"
+                    android:layout_marginTop="7dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_camera_libary"
+            style="@style/styleCardview"
+            android:foreground="?android:selectableItemBackground"
+            android:layout_margin="@dimen/margin_cardview"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="@dimen/width_img"
+                    android:layout_height="@dimen/height_img"
+                    android:src="@drawable/ic_photo_library_black_48dp"
+                    android:padding="10dp"
+
+                    />
+                <TextView
+                    style="@style/fontCarview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video Camara"
+                    android:layout_marginTop="7dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>
