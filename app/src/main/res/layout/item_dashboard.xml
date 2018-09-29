@@ -14,8 +14,8 @@
         android:layout_height="wrap_content">
         <android.support.v7.widget.CardView
             style="@style/styleCardview"
-            android:id="@+id/cd_camera"
-            android:clickable="true"
+            android:id="@+id/cv_camera"
+            android:foreground="?android:selectableItemBackground"
             android:layout_margin="10dp"
             >
             <LinearLayout
@@ -29,13 +29,14 @@
                     android:layout_width="@dimen/width_img"
                     android:layout_height="@dimen/height_img"
                     android:padding="10dp"
+                    android:contentDescription="@string/txt_camara"
                     android:src="@drawable/ic_photo_camera_black_48dp"
                     />
                 <TextView
                     style="@style/fontCarview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Camara"
+                    android:text="@string/txt_camara"
                     android:layout_marginTop="@dimen/margin_cardview"
                     />
                 <View
@@ -48,8 +49,9 @@
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
             style="@style/styleCardview"
-            android:id="@+id/cd_video_library"
+            android:id="@+id/cv_video_library"
             android:layout_margin="@dimen/margin_cardview"
+            android:foreground="?android:selectableItemBackground"
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,12 +64,13 @@
                     android:layout_height="@dimen/height_img"
                     android:src="@drawable/ic_video_library_black_48dp"
                     android:padding="10dp"
+                    android:contentDescription="@string/txt_video_galeria"
                     />
                 <TextView
                     style="@style/fontCarview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Video Galeria "
+                    android:text="@string/txt_video_galeria"
                     android:layout_marginTop="7dp"
                     />
                 <View
@@ -106,13 +109,13 @@
                     android:layout_height="@dimen/height_img"
                     android:src="@drawable/ic_videocam_black_48dp"
                     android:padding="10dp"
-
+                    android:contentDescription="@string/txt_video_camara"
                     />
                 <TextView
                     style="@style/fontCarview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Video Camara"
+                    android:text="@string/txt_video_camara"
                     android:layout_marginTop="7dp"
                     />
                 <View
@@ -141,13 +144,13 @@
                     android:layout_height="@dimen/height_img"
                     android:src="@drawable/ic_photo_library_black_48dp"
                     android:padding="10dp"
-
+                    android:contentDescription="@string/txt_video_camara"
                     />
                 <TextView
                     style="@style/fontCarview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Video Camara"
+                    android:text="@string/txt_camara_galery"
                     android:layout_marginTop="7dp"
                     />
                 <View

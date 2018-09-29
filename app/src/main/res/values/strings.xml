@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Color Pictures</string>
+    <string name="txt_camara">Camara</string>
+    <string name="txt_video_galeria">Video Galeria</string>
+    <string name="txt_video_camara">Video Camara</string>
+    <string name="txt_camara_galery">Galeria Camara</string>
+    <string name="txt_dialog_btn_acept">Aceptar</string>
+    <string name="txt_dialog_error_title">Atención</string>
+    <string name="txt_dialog_charge">Cargando</string>
+    <string name="txt_dialog_missed_data">Favor de ingresar los siguientes datos o dejar un espacio: </string>
+    <string name="txt_dialog_error_password">Favor de verificar sus datos</string>
+    <string name="txt_dialog_missed_email">Favor de introducir su correo electronico</string>
+    <string name="txt_dialog_email_send">Se envio tu contraseña a tu correo</string>
 </resources>
